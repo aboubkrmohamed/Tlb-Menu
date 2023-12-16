@@ -1,0 +1,234 @@
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+.row 
+{
+    margin: 0 ;
+     padding: 0;
+}
+/* *
+{
+    color: #535e79;
+} */
+
+.main-page
+{
+    width: 100%;
+    text-align: center;
+ }
+
+ /* social */
+ .social
+ {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+
+    padding: 8px;
+ }
+
+ 
+.social-icons
+{
+    color: #535c79;
+    font-size: 1.8rem;
+}
+
+
+/* navbar */
+ 
+.Navbar
+{
+    width: 50%;
+    margin: auto;
+}
+ 
+
+ .Navbar a 
+ {
+     font-size: 1.2rem;
+    font-weight: 400;
+ Line-Height: 23px;
+Color: #535e79;
+font-family: AvenirLTStd-Roman;
+
+ }
+
+ /* appetizers */
+ .appetizers ,.pizaa ,.Pasta,.burger
+ {
+    margin: auto;
+    width: 50%;
+ }
+.main-meal 
+{
+    display: flex;
+    box-shadow:4px 4px 4px 4px #888;
+    border-radius: 6px;
+     position: relative;
+}
+
+.salary-meal
+{
+    position: absolute;
+    background-color: #535e79;
+    color: #fff;
+    right: 0;
+    padding: 2px ;
+    border-radius: 0px 12px 0px 12px;
+}
+ 
+.salary-meal span 
+{
+     color: #fff;
+    font-size: 12px;
+}
+ .appetizers  .description ,.pizaa .description ,.Pasta .description ,.burger .description
+ {
+    text-align: start;
+
+}
+
+.appetizers .img img  ,.pizaa .img img  ,.Pasta .img img ,.burger .img img 
+{
+    margin: 10% 5px;
+    width: 100%;
+    height: 80%;
+}
+
+.appetizers .description h6 ,.pizaa .description h6 ,.Pasta .description h6 ,.burger .description h6
+{
+    color: #535e79;
+    font-weight: 800;
+    font-family: Avenir Heavy;
+}
+
+.appetizers .description p  ,.pizaa .description p ,.Pasta .description p ,.burger .description p
+{
+    color: #5a5a5a;
+    font-family: AvenirLTStd-Roman;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+
+/* salads */
+
+.salads ,.Sweets ,.hot-drinks,.gold-drinks,.BEVERAGES
+{
+   margin: auto;
+   width: 50%;
+}
+
+.salad-main ,.Sweets-main
+{
+    box-shadow: 6px 6px 6px 6px #888;
+    padding: 5px;
+}
+.salad-img ,.sweets-img
+{
+    position: relative;
+}
+.salad-img img ,.sweets-img img
+{
+width: 100%;
+}
+
+.salad-description ,.sweets-description
+{
+    text-align: start;
+}
+.salad-description h6 ,.sweets-description h6
+{
+    font-weight: 700;
+    font-family: Avenir Heavy;
+    color: #535e79;
+
+}
+
+.salad-description p ,.sweets-description p
+{
+color: #5a5a5a;
+font-family: AvenirLTStd-Roman;
+font-weight: 500;
+line-height: 19px;
+}
+
+.salary-salad ,.salary-sweets  
+{
+    position: absolute;
+    background-color: #535e79;
+    color: #fff;
+    right: 0;
+    top: 0;
+    padding: 5px 8px ;
+    border-radius: 0px 0px 0px 10px;
+}
+ 
+.salary-salad span ,.salary-sweets span
+{
+     color: #fff;
+    font-size: 12px;
+}
+
+
+/* Sweets  */
+.sweets-description .calories-icon
+{
+    color: #fff;
+     background-color: #535c79;
+    padding:0px 5px;
+    font-size: 1.4rem;
+}
+
+.sweets-description  span
+{
+    font-weight: 500;
+}
+
+.salary-salad ,.salary-sweets  
+{
+    position: absolute;
+    background-color: #535e79;
+    color: #fff;
+    right: 0;
+    top: 0;
+    padding: 5px 8px ;
+    border-radius: 0px 0px 0px 10px;
+}
+ 
+.salary-salad span ,.salary-sweets span
+{
+     color: #fff;
+    font-size: 12px;
+}
+
+/* Hot Drinks */
+
+.salary-HotDrinks  
+{
+    position: absolute;
+    background-color: #535e79;
+    color: #fff;
+    right: 0;
+    top: 0;
+    padding: 2px 4px ;
+    border-radius: 0px 0px 0px 16px;
+}
+ 
+.salary-HotDrinks span
+{
+     color: #fff;
+    font-size: 10px;
+}
+
+
+/* gold drinks */
+

@@ -30,6 +30,7 @@ li
 .main-page
 {
     width: 100%;
+    display: none;
     text-align: center;
  }
 
@@ -283,3 +284,17 @@ width: 100%;
 
 }
 }
+
+
+.loading
+{
+   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999999999999999;
+  display: block;
+ text-align: center;
+ padding-top: 6%;
+ }

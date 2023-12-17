@@ -1,5 +1,5 @@
 $('.autoplay').slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 3,
     autoplay: false,
     autoplaySpeed: 2000,

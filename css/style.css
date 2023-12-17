@@ -1,3 +1,14 @@
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #fff;
+
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: gray;
+
+    border-radius: 15px;
+}
+
 a
 {
     text-decoration: none;
@@ -22,6 +33,12 @@ li
     text-align: center;
  }
 
+ /* restaurant-logo" */
+.restaurant-logo img
+{
+    /* margin: auto; */
+width: 60%;
+}
  /* social */
  .social
  {
@@ -46,7 +63,7 @@ li
  
 .Navbar
 {
-    width: 50%;
+ 
     margin: auto;
 }
  
@@ -62,15 +79,19 @@ font-family: AvenirLTStd-Roman;
  }
 
  /* appetizers */
- .appetizers ,.pizaa ,.Pasta,.burger
+
+ .min 
  {
-    margin: auto;
-    width: 50%;
+width: 60%;
+margin: auto;
+box-shadow:4px 8px 8px 8px #888;
+
  }
+ 
 .main-meal 
 {
     display: flex;
-    box-shadow:4px 4px 4px 4px #888;
+    /* box-shadow:4px 4px 4px 4px #888; */
     border-radius: 6px;
      position: relative;
 }
@@ -124,12 +145,12 @@ font-family: AvenirLTStd-Roman;
 .salads ,.Sweets ,.hot-drinks,.gold-drinks,.BEVERAGES
 {
    margin: auto;
-   width: 50%;
+   /* width: 50%; */
 }
 
 .salad-main ,.Sweets-main
 {
-    box-shadow: 6px 6px 6px 6px #888;
+    /* box-shadow: 6px 6px 6px 6px #888; */
     padding: 5px;
 }
 .salad-img ,.sweets-img
@@ -232,3 +253,33 @@ line-height: 19px;
 
 /* gold drinks */
 
+
+
+
+
+/* media query */
+@media screen and (max-width:768px) {
+
+    .Navbar a 
+    {
+        font-size: .8rem;
+       font-weight: 400;
+    Line-Height: 18px;
+ 
+   
+    }
+   
+
+.restaurant-logo img
+{
+ width: 100%;
+}
+
+.min 
+{
+width: 100%;
+/* margin: auto; */
+ 
+
+}
+}
